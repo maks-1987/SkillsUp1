@@ -12,8 +12,8 @@ public class MaxMinArray {
         int[]array=new int[arr];
 
         //ввод чисел в массив
-        int max = Integer.MIN_VALUE;
-        int min = Integer.MAX_VALUE;
+        int max = arr[0];
+        int min = arr[0];
         System.out.println("Enter,please,numbers in array: ");
         for(int i = 0; i < array.length; i++) {
             array[i] = scanner.nextInt();
